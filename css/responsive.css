@@ -32,13 +32,15 @@
     }
 
     .hero_section{
+        padding: 2rem 0;
         & .wrapper_left{
             & .title{
-                font-size: 4rem;
+                font-size: 3rem;
                 & .text_color{
                     &::after{
                         left: 5px;
-                        bottom: 15px;
+                        bottom: 12px;
+                        height: 12px;
                     }
                 }
             }
@@ -74,6 +76,19 @@
              & .title{
                  text-align: center;
                  font-size: 2rem;
+                 & .sub_title_color {
+                     position: relative;
+                     &::after {
+                         position: absolute;
+                         content: '';
+                         width: 97%;
+                         height: 6px;
+                         background-color: #FDC221;
+                         left: 2px;
+                         bottom: 8px;
+                         z-index: -1;
+                     }
+                 }
              }
              & .my_btn{
                  font-size: 14px;
