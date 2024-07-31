@@ -20,23 +20,33 @@ a{
     border-radius: 0.6rem;
     border: none;
 }
+html{
+    overflow-x: hidden;
+}
 .header_section{
     padding: 1rem 0;
     z-index: 1000;
     & .navbar{
         display: flex;
         justify-content: space-between;
+        & .navbar-toggler:focus{
+            box-shadow: none;
+        }
+        & .navbar-toggler-icon{
+
+        }
         & .navbar-collapse{
             flex-grow: 0;
         }
         & .navbar-brand{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             margin-right: 0;
-            & img{
-                vertical-align: unset;
-            }
         }
     }
     & .nav_menu{
+        padding: 0.5rem 0;
         ul{
             padding-left: 0;
             & li{
@@ -71,9 +81,9 @@ a{
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 35px;
-            height: 35px;
-            font-size: 1.3rem;
+            width: 30px;
+            height: 30px;
+            font-size: 1rem;
             border-radius: 50%;
             color: #331B3B;
             border: 1px solid #331B3B;
