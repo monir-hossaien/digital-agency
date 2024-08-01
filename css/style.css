@@ -25,15 +25,11 @@ html{
 }
 .header_section{
     padding: 1rem 0;
-    z-index: 1000;
     & .navbar{
         display: flex;
         justify-content: space-between;
         & .navbar-toggler:focus{
             box-shadow: none;
-        }
-        & .navbar-toggler-icon{
-
         }
         & .navbar-collapse{
             flex-grow: 0;
@@ -127,7 +123,7 @@ html{
 
 .shape_img{
     position: absolute;
-    right: 0;
+    right: -136px;
     top: 0;
     z-index: -1;
 }
@@ -135,7 +131,7 @@ html{
 .service{
     background-image: url("/images/Rectangle 2.svg");
     background-repeat: no-repeat;
-    background-size: 1180px;
+    background-size: 90%;
     .wrapper-top{
         & .title{
             color: #331B3B;
