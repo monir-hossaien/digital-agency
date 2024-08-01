@@ -32,7 +32,8 @@
     }
 
     .hero_section{
-        padding: 0;
+        padding-top:0;
+        padding-bottom: 2rem;
         & .wrapper_left{
             & .title{
                 font-size: 3rem;
@@ -63,14 +64,16 @@
     }
 
     .service{
+        margin-top: 4rem;
         background-size: cover;
         & .wrapper_bottom{
             position: relative;
             & .service_icon{
                 position: absolute;
-                bottom: 0;
-                right: 0;
-
+                bottom: -6px;
+                left: 40%;
+                right: 40%;
+                transform: translate(-40%,-40%);
             }
         }
         & .wrapper-top{
@@ -117,8 +120,10 @@
             position: relative;
             & .work_icon{
                 position: absolute;
-                bottom: 0;
-                right: 14px;
+                bottom: -15px;
+                left: 40%;
+                right: 40%;
+                transform: translate(-40%,-40%);
             }
         }
         & .work_wrapper_left{
