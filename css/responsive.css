@@ -32,7 +32,7 @@
     }
 
     .hero_section{
-        padding: 2rem 0;
+        padding: 0;
         & .wrapper_left{
             & .title{
                 font-size: 3rem;
@@ -64,12 +64,22 @@
 
     .service{
         background-size: cover;
+        & .wrapper_bottom{
+            position: relative;
+            & .service_icon{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+
+            }
+        }
         & .wrapper-top{
             & .title{
                 font-size: 2rem;
             }
         }
     }
+
     .about{
          & .wrapper_right{
              padding: 2rem 0;
@@ -98,9 +108,19 @@
              }
          }
     }
+
     .work_section{
+        padding: 2rem 0;
         background-size: cover;
         margin-top: 3rem;
+        & .second_row{
+            position: relative;
+            & .work_icon{
+                position: absolute;
+                bottom: 0;
+                right: 14px;
+            }
+        }
         & .work_wrapper_left{
             justify-content: center;
             margin-bottom: 2rem;
@@ -110,9 +130,10 @@
             }
         }
     }
+
     .testimonial_section{
         & .title{
-            font-size: 2rem;
+            font-size: 1.8rem;
         }
     }
 

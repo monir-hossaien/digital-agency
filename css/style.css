@@ -42,7 +42,6 @@ html{
         }
     }
     & .nav_menu{
-        padding: 0.5rem 0;
         ul{
             padding-left: 0;
             & li{
@@ -247,7 +246,7 @@ html{
                     height: 5px;
                     background-color: #FDC221;
                     left: 2px;
-                    bottom: 8px;
+                    bottom: 11px;
                     z-index: -1;
 
                 }
